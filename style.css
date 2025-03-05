@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    color: darkblue;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1.ubah {
+    transform: scale(1.2);
+    color: red;
+}
+
+p {
+    font-size: 20px;
+    color: darkred;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
