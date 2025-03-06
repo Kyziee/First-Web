@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Interaktif</title>
+    <title>Game Tebak Angka 1-100</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <h1 id="judul">Halo, Dunia!</h1>
-    <h2 id="jam">00:00:00</h2>
-    <p id="pesan"></p>
-
-    <button onclick="ubahTeks()">Klik Aku</button>
-    <button onclick="ubahWarna()">Ubah Warna</button>
-    <button onclick="toggleMode()">Mode Gelap/Terang</button>
-
-    <script src="script.js"></script> 
+    <h1>Game Tebak Angka 🎯</h1>
+    <p>Tebak angka antara <b>1 - 100</b>:</p>
+    
+    <input type="number" id="inputAngka" min="1" max="100">
+    <button onclick="cekTebakan()">Tebak!</button>
+    <button onclick="resetGame()">Main Lagi!</button>
+    
+    <p id="hasil"></p>
+    <p id="kesempatan">Kesempatan: 7</p>
+    
+    <script src="script.js"></script>
 </body>
 </html>
