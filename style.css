@@ -1,4 +1,4 @@
-/* Background dengan gradasi warna */
+/* CSS untuk tampilan lebih menarik */
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -11,13 +11,11 @@ body {
     align-items: center;
 }
 
-/* Judul game */
 h1 {
     font-size: 36px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Input angka */
 input {
     padding: 12px;
     font-size: 18px;
@@ -28,7 +26,6 @@ input {
     outline: none;
 }
 
-/* Gaya tombol */
 button {
     padding: 12px 20px;
     font-size: 18px;
@@ -39,7 +36,6 @@ button {
     transition: all 0.3s ease;
 }
 
-/* Warna tombol */
 button:nth-child(2) { background-color: #4CAF50; color: white; } /* Tombol Tebak */
 button:nth-child(3) { background-color: #f44336; color: white; } /* Tombol Reset */
 
@@ -48,7 +44,6 @@ button:hover {
     filter: brightness(1.2);
 }
 
-/* Hasil tebakan */
 #hasil {
     font-size: 20px;
     font-weight: bold;
@@ -56,13 +51,11 @@ button:hover {
     padding: 10px;
 }
 
-/* Kesempatan */
 #kesempatan {
     font-size: 18px;
     font-weight: bold;
 }
 
-/* Animasi shake saat salah tebak */
 @keyframes shake {
     0% { transform: translateX(0); }
     25% { transform: translateX(-5px); }
